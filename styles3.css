@@ -1,0 +1,16 @@
+body {
+    background: lightblue;
+  }
+  svg {
+    width: 25%;
+    display:block;
+    margin: 0 auto;
+    #whole-flower {
+      animation: bounce 1s ease-in-out -5s both infinite;
+    }
+  }
+  
+  @keyframes bounce{
+    50% {transform:translateY(20px);}
+    100%{transform:translateY(0px);}
+  }
